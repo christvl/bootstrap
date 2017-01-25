@@ -1,0 +1,104 @@
+@font-face {
+    font-family: logoFont;
+    src: url(logofont.otf);
+}
+body{
+    background-color: #f2f2f2;
+}
+#navs{
+    background-color: black;
+    font-family: 'Anton', sans-serif;
+    font-size: 1.1em;
+}
+#navs a{
+    color:yellow;
+}
+#navs a:hover{
+    color:red;
+}
+.jumbotron{
+    background: url(img/logo.png);
+    min-height: 480px;
+}
+#regi{
+    background-color: black;
+    color: yellow;
+    text-shadow: 2px 2px black;
+}
+.btn-group a{
+    background-color: lightgoldenrodyellow;
+    color:black;
+}
+.btn-group a:hover{
+    border:2px solid black;
+    color:red;
+    cursor: pointer;
+}
+.btn-group{
+    margin-left: 25px;
+    position: relative;
+    top:50px;
+}
+.jumbotron h1{
+    text-align: center;
+    font-family: logoFont;
+    color:yellow;
+    text-shadow: 2px 2px black;
+    font-size: 3.6em;
+    position: relative;
+    top:50px;
+}
+.jumbotron h2{
+    text-align: center;
+    font-family: logoFont;
+    color:yellow;
+    text-shadow: 2px 2px black;
+    font-size: 3.0em;
+    position: relative;
+    top:50px;  
+}
+#about h3{
+    font-family: logoFont;
+    color:yellow;
+    text-shadow: 2px 2px black;
+}
+#about p{
+     font-family: 'Droid Serif', serif;
+}
+#speakers{
+    text-align: center;
+    font-family: logoFont;
+    color:yellow;
+    text-shadow: 2px 2px black;
+    position: relative;
+    top: -3px;
+    font-size: 3.0em;
+}
+#schedule{
+    text-align: center;
+    font-family: logoFont;
+    color:yellow;
+    text-shadow: 2px 2px black;
+    position: relative;
+    top: -3px;
+    font-size: 3.0em;
+}
+#footer{
+    text-align: center;
+}
+@media screen and (min-width: 360px){
+.btn-group{
+    margin-left: 40px;
+    position: relative;
+    top:50px;
+}
+    
+}
+@media screen and (min-width: 768px){
+.jumbotron h1{
+    font-size: 6.0em;
+}
+.jumbotron h2{
+   ont-size: 4.0em;
+}
+}
